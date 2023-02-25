@@ -1,0 +1,28 @@
+{
+    "name": "🖤 iwishkem.tk",
+    "identifier": "tk.iwishkem.repo",
+    "sourceURL": "https://iwishkem.tk/esign.json",
+    "apps": [
+
+        {	
+	"name": "Syccla",
+	"version": "Beta v0.1",
+	"versionDate": "2023-02-25T00:00:02+03:00",
+	"versionDescription": "A modern perfect ipa signer",
+	"downloadURL": "https://github.com/KevinAlavik/scylla-ios/releases/download/ipa/scylla.beta.ipa",
+	"iconURL": "https://media.discordapp.net/attachments/1071852886507671653/1079085637438804099/PagNX.png",
+	"isLanZouCloud": 0,
+	"size": 119000
+	},
+	{	
+	"name": "None",
+	"version": "None",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "None",
+	"downloadURL": "None",
+	"iconURL": "None",
+	"isLanZouCloud": 0,
+	"size": 115343360
+	}
+      ]
+}
