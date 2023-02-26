@@ -40,7 +40,7 @@
 	"versionDate": "2023-02-26T00:00:02+03:00",
 	"versionDescription": "Enable Dynamic Island on every device that is running iOS 16.0 to 16.1.2 using the MacDirtyCow exploit.",
 	"downloadURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
-	"iconURL": "https://github.com/matteozappia/DynamicCow/blob/main/Images/dynamiccowiconpreview.png",
+	"iconURL": "https://raw.githubusercontent.com/matteozappia/DynamicCow/main/Images/dynamiccowiconpreview.png",
 	"isLanZouCloud": 0,
 	"size": 915456
 	},
