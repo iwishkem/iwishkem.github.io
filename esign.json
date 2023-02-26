@@ -12,7 +12,7 @@
 	"downloadURL": "https://github.com/KevinAlavik/scylla-ios/releases/download/ipa/scylla.beta.ipa",
 	"iconURL": "https://media.discordapp.net/attachments/1071852886507671653/1079085637438804099/PagNX.png",
 	"isLanZouCloud": 0,
-	"size": 119000
+	"size": 121856
 	},
 	{	
 	"name": "Cowabunga",
@@ -22,7 +22,7 @@
 	"downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v8.0.5/Cowabunga.ipa",
 	"iconURL": "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
 	"isLanZouCloud": 0,
-	"size": 19600000
+	"size": 20552089.6
 	}
       ]
 }
