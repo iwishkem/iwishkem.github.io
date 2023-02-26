@@ -23,6 +23,17 @@
 	"iconURL": "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
 	"isLanZouCloud": 0,
 	"size": 20552089.6
-	}
+	},
+        {	
+	"name": "FileSwitcherDump",
+	"version": "1.0",
+	"versionDate": "2023-02-26T00:00:02+03:00",
+	"versionDescription": "Dump .fsp file contents on iOS",
+	"downloadURL": "https://github.com/sourcelocation/FileSwitcherDump/releases/download/1.0/FileSwitcherDump_1.0.ipa",
+	"iconURL": "https://media.discordapp.net/attachments/1071852886507671653/1079286606571241472/IMG_1515.jpg",
+	"isLanZouCloud": 0,
+	"size": 4424990.72
+	},
+      
       ]
 }
