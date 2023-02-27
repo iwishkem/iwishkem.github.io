@@ -35,6 +35,16 @@
 	"size": 4424990.72
 	},
 	{	
+	"name": "FileSwitcherPro",
+	"version": "2.3",
+	"versionDate": "2023-02-27T00:00:02+03:00",
+	"versionDescription": "FileSwitcherPro is a successor of FileSwitcherX. Users can customize as they wish:\nAutomate the replacement of favorite files\nCustomize the home screen by arranging only favorite tweaks.\nFreely change the colors of the control center, notifications, dock, and folders.\nChange carrier name and beta alert text.\nImporting a file that has been modified in another app will allow all changes to be applied in just this app.\nThis app is convenient when used with a file manager.",
+	"downloadURL": "https://github.com/straight-tamago/FileSwitcherPro/releases/download/2.3/FileSwitcherPro-2.3.ipa",
+	"iconURL": "https://user-images.githubusercontent.com/121408851/215506331-a7fe85f7-7f20-4711-8b7b-54f95e31bbe7.jpg",
+	"isLanZouCloud": 0,
+	"size": 3114270.72
+	},
+	{	
 	"name": "DynamicCow",
 	"version": "1.1",
 	"versionDate": "2023-02-26T00:00:02+03:00",
