@@ -53,6 +53,16 @@
 	"iconURL": "https://raw.githubusercontent.com/matteozappia/DynamicCow/main/Images/dynamiccowiconpreview.png",
 	"isLanZouCloud": 0,
 	"size": 915456
-	}
+	},
+	{
+    "name": "PostBox",
+    "version": "1",
+    "versionDate": "2023-03-04T00:00:00+03:00",
+    "versionDescription": " Cydia Jailbreak repos, without a Jailbreak.",
+    "downloadURL": "https://zeus.me/dl/ipa/postbox",
+    "iconURL": "https://www.postbox.news/assets/images/postboxIconWhite.svg",
+    "isLanZouCloud": 0,
+    "size": 8493.4656
+       }
       ]
 }
