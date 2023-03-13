@@ -3,8 +3,7 @@
     "identifier": "repo.iwishkem.tk",
     "sourceURL": "http://www.iwishkem.tk/esign.json",
     "apps": [
-
-        {	
+	{	
 	"name": "Syccla",
 	"version": "0.1.2",
 	"versionDate": "2023-02-26T00:00:02+03:00",
@@ -18,7 +17,7 @@
 	"name": "Cowabunga",
 	"version": "8.1.3",
 	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "Your custom operations author name can now be set from the home screen\nSpringboard tools can now be reverted without a reboot and on iOS 14\nImproved update wording notice\nRemoved setting System Version\nFixed renaming a replacing operation causing it to corrupt",
+	"versionDescription": "Update",
 	"downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v8.1.3/Cowabunga.ipa",
 	"iconURL": "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
 	"isLanZouCloud": 0,
