@@ -3,65 +3,350 @@
     "identifier": "repo.iwishkem.tk",
     "sourceURL": "http://www.iwishkem.tk/esign.json",
     "apps": [
-	{	
-	"name": "Syccla",
-	"version": "0.1.2",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "A modern perfect ipa signer",
-	"downloadURL": "https://github.com/KevinAlavik/scylla-ios/releases/download/Beta0.1.2/ScyllaBeta0.1.2.ipa",
-	"iconURL": "https://user-images.githubusercontent.com/95900603/221386289-f57a70f0-6c71-42f4-b8d3-b5f335d53103.png",
+
+        {	
+	"name": "ShadowFight-3",
+	"version": "1.30",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Dondurulmuş Düşman",
+	"downloadURL": "https://trappleipa.herokuapp.com/5/Shadow+Fight+3+-+RCS+%5Bv1.30.0%5D.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/bOrpHn6uxgQRZfiwNFkHN-idtottSkq6iDu0wUTAAXLJRNauJ3Um0qN2fm6Z6MeFYS0=s48-rw",
 	"isLanZouCloud": 0,
-	"size": 1279262.72
+	"size": 183500800
 	},
 	{	
-	"name": "Cowabunga",
-	"version": "8.1.3",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "Update",
-	"downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v8.1.3/Cowabunga.ipa",
-	"iconURL": "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
+	"name": "FIFA MOBİLE",
+	"version": "18.0.03",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Kaleci Topu Tutamaz",
+	"downloadURL": "https://trappleipa.herokuapp.com/7/FIFA+Mobile_18.0.03.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/kh2_eN-8jLapLGca6E7EupoEpv9e7IWXGxWLPwCBKl888d8IiLPAuPWAhgmFLk4EoA=s48-rw",
 	"isLanZouCloud": 0,
-	"size": 21915238.4
+	"size": 115343360
+	},
+	{	
+	"name": "ICleaner Pro",
+	"version": "1.0.4",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Tüm  Ücretli Özellikler Açık",
+	"downloadURL": "https://trappleipa.herokuapp.com/9/iCleaner+%C2%AE+Pro+%281.0.4%29.ipa",
+	"iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_SaXTMYuWKSU1L6he6X5WR5-eRyxOtxgfTg&usqp=CAU",
+	"isLanZouCloud": 0,
+	"size": 2411724.8
+	},
+	{	
+	"name": "WallCraft PRO",
+	"version": "2.8",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Ücretli Uygulama\n➜ 54.99$ AppStore",
+	"downloadURL": "https://trappleipa.herokuapp.com/11/Wallcraft+Pro+%282.8%29.ipa",
+	"iconURL": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/cd/0a/43/cd0a4353-7efd-c421-2ca3-fe2087739470/source/512x512bb.jpg",
+	"isLanZouCloud": 0,
+	"size": 16252928
+	},
+	{	
+	"name": "𝗗𝗟𝗧𝗶𝗸𝗧𝗼𝗸",
+	"version": "26.6.1",
+	"versionDate": "2022-11-1T00:00:02+03:00",
+	"versionDescription": "DEVRE DIŞI ŞUANLIK\n𝗢̈𝘇𝗲𝗹𝗹𝗶𝗸𝗹𝗲𝗿: 🔥\n* Filigran olmadan tüm videoları indirin\n* Yorum karakterlerinin sayısını 240 karaktere yükseltin\n* İçerik Durumunu değiştirme\n* Video Oluşturma geçmişini görüntüleme\n* Kullanıcılar için video sayısını görüntüleme\n* Otomatik olarak bir sonraki videoya git\n* Video görüntüleme arayüzünde her şeyi gizle\n* Profil resmini kaydet\n* Boğuk videolarda ses çalma\n* Uygulamayı ’Yerine takip ediyorum’ bölümünde açın\n* Açıklamayı, adı ve tanıtım tanıtımını kopyalayın",
+	"downloadURL": "https://trappleipalink.herokuapp.com/3048/DLTikTok+%2826.6.1%29.ipa",
+	"iconURL": "https://i1.wp.com/ipacrack.com/wp-content/uploads/2022/06/DLTiktok.png?w=460&ssl=1",
+	"isLanZouCloud": 0,
+	"size": 134427443.2
+	},
+	{	
+	"name": "PubgMobile-KASAR",
+	"version": "2.3.0",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "ESP\nAİMBOT\nSEKMEME\nTemiz Hile Olduğu Söyleniyor\nMisafir Hesapta Test Ediniz!!",
+	"downloadURL": "https://trappleipa.herokuapp.com/13/PUBG-KASARHACKED_2.3.0.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 1932735283.2
+	},
+	{	
+	"name": "YouTubeDleasy-OkkoOkan",
+	"version": "17.44.4",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "𝗢̈𝗭𝗘𝗟𝗟𝗜̇𝗞𝗟𝗘𝗥:\nREKLAMSIZ VERSİYON\nReklam engelleme \nVideo indir \nSes indir\nArka planda video oynatın\nSafari'de bağlantıları aç\nMetni kopyala \nÖnerilen videoları kaldır",
+	"downloadURL": "https://trappleipa.herokuapp.com/15/YouTubeDleasy.OkkoOkan.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 121215385.6
+	},
+
+        {
+            "name": "New Star Soccer",
+            "bundleIdentifier": "com.newstargames.newstarsoccer",
+            "developerName": "TrAppleDestek",
+            "version": "2.25",
+            "versionDate": "2022-12-15T00:00:02+03:00",
+            "versionDescription": "Ücretsiz Satın Alımlar",
+            "downloadURL": "https://trappleipa.herokuapp.com/17/New+Star+Manager+TRAppleDestek.ipa",
+            "localizedDescription": "Ücretsiz Satın Alımlar",
+            "iconURL": "https://media.discordapp.net/attachments/998276806081786038/1029761237359280138/IMG_0687.jpg",
+            "tintColor": "#ff9900",
+            "isLanZouCloud": 0,
+            "size": 53477376
+        },
+        {
+            "name": "Dead Cells",
+            "bundleIdentifier": "com.deadcells.trappledestek",
+            "developerName": "TrAppleDestek",
+            "version": "2.7.2",
+            "versionDate": "2022-12-15T00:00:03+03:00",
+            "versionDescription": "-Sınırsız Mermi \n-Sınırsız Altın \n-Sınırsız Ruh",
+            "downloadURL": "https://trappleipa.herokuapp.com/19/ipastore+DeadCells_v2.7.2.ipa",
+            "localizedDescription": "-Sınırsız Mermi \n-Sınırsız Altın \n-Sınırsız Ruh",
+            "iconURL": "https://media.discordapp.net/attachments/998276806081786038/1029790588595339345/IMG_0695.jpg",
+            "tintColor": "#ff9900",
+            "isLanZouCloud": 0,
+            "size": 687865856
+        },
+        {
+            "name": "Minecraft",
+            "bundleIdentifier": "com.mojang.minecraftpe",
+            "developerName": "Mojang",
+            "version": "1.19.50",
+            "versionDate": "2022-12-15T16:18:00+08:00",
+            "versionDescription": "Orijinal",
+            "downloadURL": "https://trappleipa.herokuapp.com/21/Minecraft+-+RCS+%5Bv1.19.50%5D.ipa",
+            "localizedDescription": "Minecraft",
+            "iconURL": "https://is.gd/3WCBET",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 5.673e+8
+        },
+        {	
+	"name": "Drama Flix",
+	"version": "1.1.0",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Reklamsız . crack\n- Film ve Dizilerin Ünlü Uygulaması HDO\n\nFilm Netflix - Prime video - Disney Apple AppleTV GİBİ. \nBir çok sinema dizileri izleme imkanı Alternatif yeni versiyon",
+	"downloadURL": "https://trappleipa.herokuapp.com/23/DramaFlix_NoAdsFix.1.1.0.OkkoOkan.ipa",
+	"iconURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/49/cd/37/49cd37cb-a89a-bc24-cb9e-5f1b0197e2f9/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/217x0w.webp",
+	"isLanZouCloud": 0,
+	"size": 10349445.12
+	},
+        {
+            "name": "Noir",
+            "bundleIdentifier": "com.noir.trappledestek",
+            "developerName": "TrAppleDestek",
+            "version": "2022.3.3",
+            "versionDate": "2022-12-15T00:00:05+03:00",
+            "versionDescription": "Noir Karanlık Mod Safari \n-69.99₺ App Store",
+            "downloadURL": "https://trappleipa.herokuapp.com/25/Noir+%5Bv2022.3.3%5D.ipa",
+            "localizedDescription": "Noir Karanlık Mod Safari",
+            "iconURL": "https://media.discordapp.net/attachments/998276806081786038/1029822363967168643/IMG_0699.png",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 5557452.8
+        },
+
+        {	
+	"name": "DLS22",
+	"version": "9.14",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Tüm özelleştirmelerin ve Özel seçeneğinin kilidi açıldı. (Forma, Logo, Antrenör)\n-Tüm emojilerin kilidi açıldı (Online oyunlar için)\n-Tüm oyuncu formasyonları açıldı\n-Penaltı cezası kaldırıldı",
+	"downloadURL": "https://trappleipa.herokuapp.com/27/DLS+22_9.14.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/fsxtrxuywDpTnqplIccL2ADmGPMOUDEJTeUWH6cj1IhjD9rlJL_6xtGHfqcReP_5KQ=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 527433728
+	},
+	{	
+	"name": "YouTube Müzik (𝗠𝗼𝗱)",
+	"version": "5.27.1",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Uygulama size ücretsiz olarak uluslararası müzik sunuyor.\nVeritabanı çok büyük ve tatmin edici.\nUygulama reklam içermez.\nDolby kalitesinde müziğin keyfini çıkarabilirsiniz.\nMüzik videoları da mevcuttur.\nArka planda müzik çalabilirsiniz.\nKendi çalma listenizi oluşturmanıza olanak tanır.",
+	"downloadURL": "https://trappleipa.herokuapp.com/29/YouTube+Muzik+Hacked+5.27.1.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/GnYnNfKBr2nysHBYgYRCQtcv_RRNN0Sosn47F5ArKJu89DMR3_jHRAazoIVsPUoaMg=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 58720256
+	},
+	{	
+	"name": "Stumble Guys",
+	"version": "0.42",
+	"versionDate": "2022-12-15T00:00:06+03:00",
+	"versionDescription": "-Bütün ifadeler açık\n-Bütün adımlar açık\n-Bütün animasyonlar açık\n\n✅ Güncel Sürüm: 0.42.",
+	"downloadURL": "https://trappleipa.herokuapp.com/31/Stumble+Guys_TrappledestekCom_0.42.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/WIxz11upokgjG0ktYCTM7XmWOF7w8sIfcHBfcyFdYU1Qy_rucdjpRlZ6aS3dy3-8Jg=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 109051904
+	},
+	{	
+	"name": "VivaCut",
+	"version": "2.17.1",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "- Tüm özellikleri aç\n(Özellikleri etkinleştirmek için herhangi bir hesaba giriş yapın)",
+	"downloadURL": "https://trappleipa.herokuapp.com/33/VivaCut_v2.17.2.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/EkkfmrN5n4xyJuv7sqrNANOW13fEYJQiUDDNn1kb5LNont31w0IvjHwObQ42bRwLuAY=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 65903001.6
+	},
+	{	
+	"name": "KineMaster",
+	"version": "6.2.0",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Premium'u Satın Alıp Vazgeç Diyin.",
+	"downloadURL": "https://trappleipa.herokuapp.com/35/KineMaster_6.2.0_ap1m0d.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/Jaw57u6LQJNeqKfjJER9MM5On66ZXopBk3rrShag1BBZrX6cZdxxIMGf8nYA_Av0meA=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 69059215.36
+	},
+	{	
+	"name": "Asphalt9",
+	"version": "3.7.4",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Özellikler: : \n* Sınırsız Nitro kullanımı 🔋",
+	"downloadURL": "https://trappleipa.herokuapp.com/37/Asphalt9_Hack_Z7MH_7Ki_v3.7.4.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/PJo-zZiPokt4vUPri7-md-S-adydt9HPf9yfAcuKift7tYTC1cyrhpxmqFPQbuDRrDU=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 3156800962.56
+	},
+	{	
+	"name": "ProCam 8",
+	"version": "14.0.5",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "ProCam 8 :- Paid App\n➜ 219,99₺ App Store",
+	"downloadURL": "https://trappleipa.herokuapp.com/39/ProCam+%5Bv14.0.5%5D.ipa",
+	"iconURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/63/42/8e/63428edd-8ec6-bd55-2a64-2d3b4a485102/AppIcon-2-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+	"isLanZouCloud": 0,
+	"size": 15518924.8
+	},	
+        {	
+	"name": "YouTube Reborn",
+	"version": "17.39.4",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Youtube Reborn...",
+	"downloadURL": "https://trappleipa.herokuapp.com/41/Youtube_17.39.4_Deliturk.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 113214750.72
 	},
         {	
-	"name": "FileSwitcherDump",
-	"version": "1.0",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "Dump .fsp file contents on iOS",
-	"downloadURL": "https://github.com/sourcelocation/FileSwitcherDump/releases/download/1.0/FileSwitcherDump_1.0.ipa",
-	"iconURL": "https://media.discordapp.net/attachments/1071852886507671653/1079286606571241472/IMG_1515.jpg",
+	"name": "Twitch++",
+	"version": "14.3",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Reklamsız",
+	"downloadURL": "https://trappleipa.herokuapp.com/43/Twitch%2B%2B_14.3.ipa",
+	"iconURL": "https://media.discordapp.net/attachments/998276806081786038/1030155927149625464/IMG_0704.jpg",
 	"isLanZouCloud": 0,
-	"size": 4424990.72
+	"size": 47364177.92
+	},
+        {	
+	"name": "Plague Inc.",
+	"version": "1.19.2",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Uygulama içi satın alımları ücretsiz yapar.",
+	"downloadURL": "https://trappleipa.herokuapp.com/45/Plague+Inc._%40emirshh_1.19.2.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/AhhhI8JGijtKuO8xOP_qUzOvIk7R7xBIKALKW_P7DV7jzWtvo2LrfC0081XMc85NGeBK=w480-h960",
+	"isLanZouCloud": 0,
+	"size": 78852915.2
+	},
+	    {	
+	"name": "Lightroom",
+	"version": "8.0.0",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Premium \n-Satın al deyip vazgeç deyin",
+	"downloadURL": "https://trappleipa.herokuapp.com/47/Lightroom%2B%2B_8.0.0_Serdar.ipa",
+	"iconURL": "https://avatars.mds.yandex.net/i?id=a9699707a5b782e6a6d4cd15c2bf7d73-6898848-images-thumbs&n=13&exp=1",
+	"isLanZouCloud": 0,
+	"size": 178677350.4
+	},
+        {
+            "name": "Mondly",
+            "bundleIdentifier": "com.atistudios.MondlyLanguages",
+            "developerName": "TrAppleDestek",
+            "version": "9.31.1",
+            "versionDate": "2022-12-15T00:00:01+03:00",
+            "versionDescription": "Premium\nYabancı Dil Öğrenmek",
+            "downloadURL": "https://trappleipa.herokuapp.com/49/Mondly_9.31.1_.ipa",
+            "localizedDescription": "Premium\nYabancı Dil Öğrenmek",
+            "iconURL": "https://cdn.discordapp.com/attachments/1029824544845865003/1030865541419761835/IMG_2640.png",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 80635494.4
+        },
+        {
+            "name": "Matchday",
+            "bundleIdentifier": "com.playsportgames.football",
+            "developerName": "TrAppleDestek",
+            "version": "2022.5.1",
+            "versionDate": "2022-12-15T00:00:01+03:00",
+            "versionDescription": "-Para Ekleme: Müzik düğmesine dokunun \n-Altın Ekleme: Ses Efektleri düğmesine dokunun",
+            "downloadURL": "https://trappleipa.herokuapp.com/51/Matchday_2022.5.1.ipa",
+            "localizedDescription": "-Para Ekleme: Müzik düğmesine dokunun \n-Altın Ekleme: Ses Efektleri düğmesine dokunun",
+            "iconURL": "https://cdn.discordapp.com/attachments/1029824544845865003/1031921341059838012/IMG_2681.png",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 115343360
+        },
+        {	
+	"name": "Score Hero",
+	"version": "2.60",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Sınırsız Can \n-Rakip kötü oynar",
+	"downloadURL": "https://trappleipa.herokuapp.com/55/Score%21+Hero_%40emirshh_2.60.ipa",
+	"iconURL": "https://avatars.mds.yandex.net/i?id=0b15d5b74ead22314231a21b74ef0804-5603186-images-thumbs&n=13&exp=1",
+	"isLanZouCloud": 0,
+	"size": 226806988.8
+	},
+	    {	
+	"name": "Earth Inc",
+	"version": "1.03",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "-Sınırsız Altın Harcadıkça artar \n-Sınırsız Elmas Harcadıkça artar",
+	"downloadURL": "https://trappleipa.herokuapp.com/57/Earth+Inc_Trappledestek_1.03.ipa",
+	"iconURL": "https://play-lh.googleusercontent.com/s8PrsgvuOfPjLE1membL3UY1kUrx9cOtNRHFMijqrtQ_zKuco7nY5CEWvKB5iHhHNpM=s48-rw",
+	"isLanZouCloud": 0,
+	"size": 56172216.32
 	},
 	{	
-	"name": "FileSwitcherPro",
-	"version": "2.3",
-	"versionDate": "2023-02-27T00:00:02+03:00",
-	"versionDescription": "FileSwitcherPro is a successor of FileSwitcherX. Users can customize as they wish:\nAutomate the replacement of favorite files\nCustomize the home screen by arranging only favorite tweaks.\nFreely change the colors of the control center, notifications, dock, and folders.\nChange carrier name and beta alert text.\nImporting a file that has been modified in another app will allow all changes to be applied in just this app.\nThis app is convenient when used with a file manager.",
-	"downloadURL": "https://github.com/straight-tamago/FileSwitcherPro/releases/download/2.3/FileSwitcherPro-2.3.ipa",
-	"iconURL": "https://user-images.githubusercontent.com/121408851/215506331-a7fe85f7-7f20-4711-8b7b-54f95e31bbe7.jpg",
+	"name": "TeraBox Premium",
+	"version": "3.1.1",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "Premium Özellikleri(sunucu özellikleri hariç).",
+	"downloadURL": "https://trappleipa.herokuapp.com/59/TeraBox+Premium+%5Bv3.1.1%5D.ipa",
+	"iconURL": "https://www.teknohall.com/wp-content/uploads/2021/07/google-fotograflar-alternatif-terabox.jpg",
 	"isLanZouCloud": 0,
-	"size": 3114270.72
+	"size": 94990499.84
 	},
-	{	
-	"name": "DynamicCow",
-	"version": "1.1",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "Enable Dynamic Island on every device that is running iOS 16.0 to 16.1.2 using the MacDirtyCow exploit.",
-	"downloadURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
-	"iconURL": "https://raw.githubusercontent.com/matteozappia/DynamicCow/main/Images/dynamiccowiconpreview.png",
+        {
+            "name": "BitLife",
+            "bundleIdentifier": "com.wtfapps.apollo16",
+            "developerName": "TrAppleDestek",
+            "version": "3.6",
+            "versionDate": "2022-12-15T00:00:01+03:00",
+            "versionDescription": "-PREMIUM \n-Sınırsız Para",
+            "downloadURL": "https://trappleipa.herokuapp.com/61/BitLife_%40emirshh_3.6.ipa",
+            "localizedDescription": "-PREMIUM \n-Sınırsız Para",
+            "iconURL": "https://cdn.discordapp.com/attachments/1029824544845865003/1034039184077361232/512x512bb.jpg",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 170718658.56
+        },
+        {
+            "name": "60 Seconds Reatomized",
+            "bundleIdentifier": "com.robotgentleman.game60secondsreatomized",
+            "developerName": "TrAppleDestek",
+            "version": "1.2.2",
+            "versionDate": "2022-12-15T00:00:01+03:00",
+            "versionDescription": "App Store’da 89,99₺",
+            "downloadURL": "https://trappleipa.herokuapp.com/63/60+Seconds+Reatomized_TrappledestekCom_1.2.2.ipa",
+            "localizedDescription": "App Store’da 89,99₺",
+            "iconURL": "https://cdn.discordapp.com/attachments/1029824544845865003/1034461366976794624/IMG_2776.png",
+            "tintColor": "018084",
+            "isLanZouCloud": 0,
+            "size": 148855848.96
+        },
+        {	
+	"name": "Pythonista",
+	"version": "3",
+	"versionDate": "2022-12-15T00:00:02+03:00",
+	"versionDescription": "App Store'da 220₺",
+	"downloadURL": "https://trappleipa.herokuapp.com/65/Pythonista.ipa",
+	"iconURL": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/7c/e4/10/7ce410fb-f882-fe51-9209-7a95eb9aa408/source/512x512bb.jpg",
 	"isLanZouCloud": 0,
-	"size": 915456
+	"size": 267292508.16
 	},
-	{
-    "name": "PostBox",
-    "version": "8.1",
-    "versionDate": "2023-03-04T00:00:00+03:00",
-    "versionDescription": " Cydia Jailbreak repos, without a Jailbreak.",
-    "downloadURL": "https://github.com/PostBox-Team/PostBox-Releases/releases/download/beta-8.1/PostBox-0.8.1-beta.ipa"
-    "iconURL": "https://www.postbox.news/assets/images/postboxIconWhite.svg",
-    "isLanZouCloud": 0,
-    "size": 8493.4656
-       }
-      ]
+    ]
 }
