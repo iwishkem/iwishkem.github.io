@@ -4,16 +4,6 @@
     "sourceURL": "http://www.iwishkem.tk/esign.json",
     "apps": [
 
-        {	
-	"name": "Syccla",
-	"version": "0.1.2",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "A modern perfect ipa signer",
-	"downloadURL": "https://github.com/KevinAlavik/scylla-ios/releases/download/Beta0.1.2/ScyllaBeta0.1.2.ipa",
-	"iconURL": "https://user-images.githubusercontent.com/95900603/221386289-f57a70f0-6c71-42f4-b8d3-b5f335d53103.png",
-	"isLanZouCloud": 0,
-	"size": 1279262.72
-	},
 	{	
 	"name": "Cowabunga",
 	"version": "8.1.3",
@@ -24,45 +14,5 @@
 	"isLanZouCloud": 0,
 	"size": 21915238.4
 	},
-        {	
-	"name": "FileSwitcherDump",
-	"version": "1.0",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "Dump .fsp file contents on iOS",
-	"downloadURL": "https://github.com/sourcelocation/FileSwitcherDump/releases/download/1.0/FileSwitcherDump_1.0.ipa",
-	"iconURL": "https://media.discordapp.net/attachments/1071852886507671653/1079286606571241472/IMG_1515.jpg",
-	"isLanZouCloud": 0,
-	"size": 4424990.72
-	},
-	{	
-	"name": "FileSwitcherPro",
-	"version": "2.3",
-	"versionDate": "2023-02-27T00:00:02+03:00",
-	"versionDescription": "FileSwitcherPro is a successor of FileSwitcherX. Users can customize as they wish:\nAutomate the replacement of favorite files\nCustomize the home screen by arranging only favorite tweaks.\nFreely change the colors of the control center, notifications, dock, and folders.\nChange carrier name and beta alert text.\nImporting a file that has been modified in another app will allow all changes to be applied in just this app.\nThis app is convenient when used with a file manager.",
-	"downloadURL": "https://github.com/straight-tamago/FileSwitcherPro/releases/download/2.3/FileSwitcherPro-2.3.ipa",
-	"iconURL": "https://user-images.githubusercontent.com/121408851/215506331-a7fe85f7-7f20-4711-8b7b-54f95e31bbe7.jpg",
-	"isLanZouCloud": 0,
-	"size": 3114270.72
-	},
-	{	
-	"name": "DynamicCow",
-	"version": "1.1",
-	"versionDate": "2023-02-26T00:00:02+03:00",
-	"versionDescription": "Enable Dynamic Island on every device that is running iOS 16.0 to 16.1.2 using the MacDirtyCow exploit.",
-	"downloadURL": "https://github.com/matteozappia/DynamicCow/releases/download/1.1/DynamicCow.ipa",
-	"iconURL": "https://raw.githubusercontent.com/matteozappia/DynamicCow/main/Images/dynamiccowiconpreview.png",
-	"isLanZouCloud": 0,
-	"size": 915456
-	},
-	{
-    "name": "PostBox",
-    "version": "8.1",
-    "versionDate": "2023-03-04T00:00:00+03:00",
-    "versionDescription": " Cydia Jailbreak repos, without a Jailbreak.",
-    "downloadURL": "https://github.com/PostBox-Team/PostBox-Releases/releases/download/beta-8.1/PostBox-0.8.1-beta.ipa"
-    "iconURL": "https://www.postbox.news/assets/images/postboxIconWhite.svg",
-    "isLanZouCloud": 0,
-    "size": 8493.4656
-       }
       ]
 }
