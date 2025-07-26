@@ -7,7 +7,9 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
-sidebarBtn.addEventListener("click", function() {elementToggleFunc(sidebar); })
+if (sidebarBtn) {
+    sidebarBtn.addEventListener("click", function() {elementToggleFunc(sidebar); })
+}
 
 //Activating Modal-testimonial
 
@@ -21,25 +23,30 @@ const modalTitle = document.querySelector('[data-modal-title]');
 const modalText = document.querySelector('[data-modal-text]');
 
 const testimonialsModalFunc = function () {
-    modalContainer.classList.toggle('active');
-    overlay.classList.toggle('active');
+    if (modalContainer) modalContainer.classList.toggle('active');
+    if (overlay) overlay.classList.toggle('active');
 }
 
 for (let i = 0; i < testimonialsItem.length; i++) {
     testimonialsItem[i].addEventListener('click', function () {
-        modalImg.src = this.querySelector('[data-testimonials-avatar]').src;
-        modalImg.alt = this.querySelector('[data-testimonials-avatar]').alt;
-        modalTitle.innerHTML = this.querySelector('[data-testimonials-title]').innerHTML;
-        modalText.innerHTML = this.querySelector('[data-testimonials-text]').innerHTML;
-
+        if (modalImg && modalTitle && modalText) {
+            modalImg.src = this.querySelector('[data-testimonials-avatar]').src;
+            modalImg.alt = this.querySelector('[data-testimonials-avatar]').alt;
+            modalTitle.innerHTML = this.querySelector('[data-testimonials-title]').innerHTML;
+            modalText.innerHTML = this.querySelector('[data-testimonials-text]').innerHTML;
+        }
         testimonialsModalFunc();
     })
 }
 
 //Activating close button in modal-testimonial
 
-modalCloseBtn.addEventListener('click', testimonialsModalFunc);
-overlay.addEventListener('click', testimonialsModalFunc);
+if (modalCloseBtn) {
+    modalCloseBtn.addEventListener('click', testimonialsModalFunc);
+}
+if (overlay) {
+    overlay.addEventListener('click', testimonialsModalFunc);
+}
 
 //Activating Filter Select and filtering options
 
@@ -48,16 +55,16 @@ const selectItems = document.querySelectorAll('[data-select-item]');
 const selectValue = document.querySelector('[data-select-value]');
 const filterBtn = document.querySelectorAll('[data-filter-btn]');
 
-select.addEventListener('click', function () {elementToggleFunc(this); });
+if (select) {
+    select.addEventListener('click', function () {elementToggleFunc(this); });
+}
 
 for(let i = 0; i < selectItems.length; i++) {
     selectItems[i].addEventListener('click', function() {
-
         let selectedValue = this.innerText.toLowerCase();
-        selectValue.innerText = this.innerText;
-        elementToggleFunc(select);
+        if (selectValue) selectValue.innerText = this.innerText;
+        if (select) elementToggleFunc(select);
         filterFunc(selectedValue);
-
     });
 }
 
@@ -77,21 +84,20 @@ const filterFunc = function (selectedValue) {
 
 //Enabling filter button for larger screens 
 
-let lastClickedBtn = filterBtn[0];
+if (filterBtn.length > 0) {
+    let lastClickedBtn = filterBtn[0];
 
-for (let i = 0; i < filterBtn.length; i++) {
-    
-    filterBtn[i].addEventListener('click', function() {
+    for (let i = 0; i < filterBtn.length; i++) {
+        filterBtn[i].addEventListener('click', function() {
+            let selectedValue = this.innerText.toLowerCase();
+            if (selectValue) selectValue.innerText = this.innerText;
+            filterFunc(selectedValue);
 
-        let selectedValue = this.innerText.toLowerCase();
-        selectValue.innerText = this.innerText;
-        filterFunc(selectedValue);
-
-        lastClickedBtn.classList.remove('active');
-        this.classList.add('active');
-        lastClickedBtn = this;
-
-    })
+            if (lastClickedBtn) lastClickedBtn.classList.remove('active');
+            this.classList.add('active');
+            lastClickedBtn = this;
+        })
+    }
 }
 
 // Enabling Contact Form
@@ -102,10 +108,10 @@ const formBtn = document.querySelector('[data-form-btn]');
 
 for(let i = 0; i < formInputs.length; i++) {
     formInputs[i].addEventListener('input', function () {
-        if(form.checkValidity()) {
-            formBtn.removeAttribute('disabled');
+        if(form && form.checkValidity()) {
+            if (formBtn) formBtn.removeAttribute('disabled');
         } else { 
-            formBtn.setAttribute('disabled', '');
+            if (formBtn) formBtn.setAttribute('disabled', '');
         }
     })
 }
@@ -117,7 +123,6 @@ const pages = document.querySelectorAll('[data-page]');
 
 for(let i = 0; i < navigationLinks.length; i++) {
     navigationLinks[i].addEventListener('click', function() {
-        
         for(let i = 0; i < pages.length; i++) {
             if(this.innerHTML.toLowerCase() == pages[i].dataset.page) {
                 pages[i].classList.add('active');
@@ -125,7 +130,7 @@ for(let i = 0; i < navigationLinks.length; i++) {
                 window.scrollTo(0, 0);
             } else {
                 pages[i].classList.remove('active');
-                navigationLinks[i]. classList.remove('active');
+                navigationLinks[i].classList.remove('active');
             }
         }
     });
