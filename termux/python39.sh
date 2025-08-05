@@ -26,6 +26,13 @@ make install
 python3.9 --version || python3 --version
 "
 
+echo "[4] Python modüllerini indiriyorum..."
+proot-distro login archlinux -- bash -c "
+python3 -m pip install --upgrade pip
+python3 -m pip install requests
+python3 -m pip install curl_cffi
+python3 -m pip install termcolor
+"
 echo ""
 echo "Kurulum tamamlandı. Arch ortamına root olarak girip python3.9'u kullanabilirsin:"
 echo "proot-distro login archlinux"
