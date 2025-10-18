@@ -1,131 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Kem</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Hi! I'm Kem.</title>
 </head>
 <body>
-    <main>
-        <aside class="sidebar " data-sidebar>
-            <div class="sidebar-info">
-                <figure class="avatar-box">
-                    <img src="images/avatar.png" alt="avatar" width="80">
-                </figure>
+  <ul class="menu">
+    <li data-content="about">About Me</li>
+    <li data-content="projects">Projects</li>
+    <li data-content="contact">Contact</li>
+    <li class="back-btn">← Back</li>
+  </ul>
 
-                <div class="info-content">
-                    <h1 class="name" title="iwishkem">iWishkem</h1>
-                    <p class="title">Python Developer</p>
-                </div>
-                
-                <button class="info-more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
-            </div>
+  <div class="content">
+    <div id="about" class="section">
+      <h2>About Me</h2>
+      <p>I'm a Python Developer from Turkey, always eager to learn and improve my skills. If you'd like to collaborate or have any questions, feel free to reach out!</p>
+    </div>
 
-            <div class="sidebar-info-more">
-                <div class="separator"></div>
+    <div id="projects" class="section">
+      <div class="project-menu">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li class="project-item" data-project="p1">XBash</li>
+          <li class="project-item" data-project="p2">ytxtract</li>
+        </ul>
+      </div>
 
-                <ul class="contacts-list">
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="calendar-outline"></ion-icon>
-                        </div>
+      <div id="p1" class="project-section">
+        <h2>XBash</h2>
+        <p>is a ShareX like image uploader written in bash.</p>
+        <p><a href="https://github.com/iwishkem/xbash" target="_blank">GitHub</a></p>
+      </div>
 
-                        <div class="contact-info">
-                            <p class="contact-title">Birthday</p>
+      <div id="p2" class="project-section">
+        <h2>ytxtract</h2>
+        <p>is a YouTube video / audio downloader written in Python.(Under Rewrite)</p>
+        <p><a href="https://github.com/iwishkem/ytxtract" target="_blank">GitHub</a></p>
+      </div>
+    </div>
 
-                            <time datetime="2008-09-11">September 11, 2008</time>
-                        </div>
-                    </li>
+    <div id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Let’s connect! You can find me on these platforms:</p>
+      <ul class="socials">
+        <li><a href="https://t.me/kemishere" target="_blank">Telegram</a></li>
+        <li><a href="https://github.com/iwishkem" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
 
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
+  <script>
+    const mainItems = document.querySelectorAll("li[data-content]");
+    const sections = document.querySelectorAll(".section");
+    const menu = document.querySelector(".menu");
+    const backBtn = document.querySelector(".back-btn");
 
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
+    const projectItems = document.querySelectorAll(".project-item");
+    const projectSections = document.querySelectorAll(".project-section");
+    const projectMenu = document.querySelector(".project-menu");
 
-                            <address>Odunpazarı, Eskişehir, Turkey</address>
-                        </div>
-                    </li>
-                </ul>
+    let inProjectDetail = false;
 
-                <div class="separator"></div>
+    mainItems.forEach(item => {
+      item.addEventListener("click", () => {
+        menu.classList.add("active");
+        sections.forEach(s => s.classList.remove("visible"));
+        document.getElementById(item.dataset.content).classList.add("visible");
+      });
+    });
 
-                <ul class="social-list">
-                    <li class="social-item"><a href="https://x.com/iwishkem" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                    <li class="social-item"><a href="https://github.com/iwishkem" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
-                    <li class="social-item"><a href="https://www.instagram.com/iwishkem/" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                    <li class="social-item"><a href="https://t.me/kemishere" class="social-link" target="_blank"><i class="fab fa-telegram-plane"></i>
-  </a>
-</li>
-                </li>
-                </ul>
-            </div>
-        </aside>
+    projectItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const target = document.getElementById(item.dataset.project);
+        projectMenu.classList.add("hidden");
+        projectSections.forEach(p => p.classList.remove("visible"));
+        target.classList.add("visible");
+        inProjectDetail = true;
+      });
+    });
 
-        <div class="main-content">
-            <article class="about active" data-page="about">
-                <header>
-                    <h2 class="h2 article-title">About me</h2>
-                </header>
-
-                <section class="about-text">
-                    <p>Hi, I'm iWishkem(aka Kem), a Python Developer from Turkey. I'm a passionate coder who loves to code and learn new things. I'm always looking for new opportunities to improve my skills and knowledge. If you have any questions or want to collaborate, feel free to contact me.</p>
-                </section>
-                
-                <section class="service">
-                    <h3 class="h3 service-title">My Projects</h3>
-
-                    <ul class="service-list">
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <a href="https://github.com/iwishkem/XBash" target="_blank" class="service-link">
-                                    <img src="images/xbash.png" alt="icon" width="80">
-                                </a>
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">XBash</h4>
-                                <p class="service-item-text">ShareX like image uploader written in bash.</p>
-                            </div>
-                        </li>
-
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <a href="https://github.com/iwishkem/ytxtract" target="_blank" class="service-link">
-                                    <img src="images/ytxtract.png" alt="icon" width="80">
-                                </a>
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">ytxtract</h4>
-                                <p class="service-item-text">YouTube video / audio downloader written in Python.(Under Maintaince)</p>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-            
-            <section class="contact" data-aos="fade-up">
-  <h3 class="h3 contact-title">Contact Me</h3>
-  <form action="https://formspree.io/f/xkgbkeyb" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
-</section>
-        </div>
-    </main>
-
-    <script src="script.js"></script>
-
-    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    backBtn.addEventListener("click", () => {
+      const projects = document.getElementById("projects");
+      if (inProjectDetail) {
+        projectSections.forEach(p => p.classList.remove("visible"));
+        projectMenu.classList.remove("hidden");
+        inProjectDetail = false;
+      } else if (projects.classList.contains("visible")) {
+        sections.forEach(s => s.classList.remove("visible"));
+        menu.classList.remove("active");
+      } else {
+        sections.forEach(s => s.classList.remove("visible"));
+        menu.classList.remove("active");
+      }
+    });
+  </script>
 </body>
 </html>
