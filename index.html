@@ -1,63 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi! I'm Kem</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Hi! I'm Kem.</title>
 </head>
 <body>
+  <ul class="menu">
+    <li data-content="about">About Me</li>
+    <li data-content="projects">Projects</li>
+    <li data-content="contact">Contact</li>
+    <li class="back-btn">← Back</li>
+  </ul>
 
-    <div class="container">
-        <header>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="/" class="back-link">← Back</a></li>
-                </ul>
-            </nav>
-            <h1>Hi! I'm Kem.</h1>
-        </header>
-
-        <main>
-            <section id="about">
-                <h2>About Me</h2>
-                <p>I'm a Python Developer from Turkey, always eager to learn and improve my skills. If you'd like to collaborate or have any questions, feel free to reach out!</p>
-            </section>
-
-            <section id="projects">
-                <h2>Projects</h2>
-                
-                <div class="project-item">
-                    <h3>XBash</h3>
-                    <p>XBash is a ShareX like image uploader written in bash.</p>
-                    <a href="https://github.com/iwishkem/xbash" target="_blank">View on GitHub</a>
-                </div>
-
-                <div class="project-item">
-                    <h3>ytxtract</h3>
-                    <p>ytxtract is a YouTube video / audio downloader written in Python. (Under Rewrite)</p>
-                    <a href="https://github.com/iwishkem/ytxtract" target="_blank">View on GitHub</a>
-                </div>
-            </section>
-
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Let’s connect! You can find me on these platforms:</p>
-                <ul class="contact-links">
-                    <li><a href="https://t.me/kemishere" target="_blank">Telegram</a></li>
-                    <li><a href="https://github.com/iwishkem" target="_blank">GitHub</a></li>
-                </ul>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2026 Kem. All rights reserved.</p>
-        </footer>
+  <div class="content">
+    <div id="about" class="section">
+      <h2>About Me</h2>
+      <p>I'm a Python Developer from Turkey, always eager to learn and improve my skills. If you'd like to collaborate or have any questions, feel free to reach out!</p>
     </div>
 
+    <div id="projects" class="section">
+      <div class="project-menu">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li class="project-item" data-project="p1">XBash</li>
+          <li class="project-item" data-project="p2">ytxtract</li>
+        </ul>
+      </div>
+
+      <div id="p1" class="project-section">
+        <h2>XBash</h2>
+        <p>is a ShareX like image uploader written in bash.</p>
+        <p><a href="https://github.com/iwishkem/xbash" target="_blank">GitHub</a></p>
+      </div>
+
+      <div id="p2" class="project-section">
+        <h2>ytxtract</h2>
+        <p>is a YouTube video / audio downloader written in Python.(Under Rewrite)</p>
+        <p><a href="https://github.com/iwishkem/ytxtract" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Let’s connect! You can find me on these platforms:</p>
+      <ul class="socials">
+        <li><a href="https://t.me/kemishere" target="_blank">Telegram</a></li>
+        <li><a href="https://github.com/iwishkem" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    const mainItems = document.querySelectorAll("li[data-content]");
+    const sections = document.querySelectorAll(".section");
+    const menu = document.querySelector(".menu");
+    const backBtn = document.querySelector(".back-btn");
+
+    const projectItems = document.querySelectorAll(".project-item");
+    const projectSections = document.querySelectorAll(".project-section");
+    const projectMenu = document.querySelector(".project-menu");
+
+    let inProjectDetail = false;
+
+    mainItems.forEach(item => {
+      item.addEventListener("click", () => {
+        menu.classList.add("active");
+        sections.forEach(s => s.classList.remove("visible"));
+        document.getElementById(item.dataset.content).classList.add("visible");
+      });
+    });
+
+    projectItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const target = document.getElementById(item.dataset.project);
+        projectMenu.classList.add("hidden");
+        projectSections.forEach(p => p.classList.remove("visible"));
+        target.classList.add("visible");
+        inProjectDetail = true;
+      });
+    });
+
+    backBtn.addEventListener("click", () => {
+      const projects = document.getElementById("projects");
+      if (inProjectDetail) {
+        projectSections.forEach(p => p.classList.remove("visible"));
+        projectMenu.classList.remove("hidden");
+        inProjectDetail = false;
+      } else if (projects.classList.contains("visible")) {
+        sections.forEach(s => s.classList.remove("visible"));
+        menu.classList.remove("active");
+      } else {
+        sections.forEach(s => s.classList.remove("visible"));
+        menu.classList.remove("active");
+      }
+    });
+  </script>
 </body>
 </html>
