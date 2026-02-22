@@ -7,8 +7,8 @@
 // @match        *://twitter.com/*
 // @match        *://x.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=x.com
-// @updateURL    https://raw.githubusercontent.com/iwishkem/iwishkem.github.io/main/scripts/x-media-downloader.user.js
-// @downloadURL  https://raw.githubusercontent.com/iwishkem/iwishkem.github.io/main/scripts/x-media-downloader.user.js
+// @updateURL    https://github.com/iwishkem/iwishkem.github.io/raw/refs/heads/main/scripts/x-media-downloader.user.js
+// @downloadURL  https://github.com/iwishkem/iwishkem.github.io/raw/refs/heads/main/scripts/x-media-downloader.user.js
 // @grant        GM_xmlhttpRequest
 // @connect      twimg.com
 // @connect      api.vxtwitter.com
@@ -281,6 +281,7 @@
     }
 
     function hasMainTweetMedia(tweet) {
+        // Alıntı tweet düzeltmesi: Birden fazla zaman etiketi varsa alıntıdır, pas geç.
         const timeElements = tweet.querySelectorAll('time');
         if (timeElements.length > 1) {
             return false;
